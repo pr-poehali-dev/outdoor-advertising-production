@@ -92,11 +92,13 @@ export default function Index() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm border-b border-border">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-6 h-6 bg-primary" />
-            <span className="font-['Oswald'] font-600 text-lg tracking-widest uppercase text-foreground">
-              Agency
-            </span>
+          <div className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/files/3cdbee9a-7506-4819-8693-096268f71d4f.png"
+              alt="Логотип"
+              className="h-10 w-auto"
+              style={{ mixBlendMode: "screen" }}
+            />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -426,9 +428,13 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="border-t border-border bg-secondary/20">
         <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="w-5 h-5 bg-primary" />
-            <span className="font-['Oswald'] font-500 tracking-widest uppercase text-foreground text-sm">Agency</span>
+          <div className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/files/3cdbee9a-7506-4819-8693-096268f71d4f.png"
+              alt="Логотип"
+              className="h-8 w-auto"
+              style={{ mixBlendMode: "screen" }}
+            />
           </div>
           <p className="text-muted-foreground text-xs text-center">
             © 2026 Рекламное агентство. Все права защищены.
