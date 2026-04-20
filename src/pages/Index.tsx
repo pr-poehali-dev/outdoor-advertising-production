@@ -164,7 +164,7 @@ export default function Index() {
             <div className="inline-flex items-center gap-2 border border-primary/40 px-4 py-1.5 mb-8">
               <div className="w-1.5 h-1.5 bg-primary rounded-full" />
               <span className="text-primary text-xs font-['Oswald'] tracking-widest uppercase">
-                Рекламное агентство полного цикла
+                РЕКЛАМНО-ПРОИЗВОДСТВЕННАЯ КОМПАНИЯ
               </span>
             </div>
           </div>
