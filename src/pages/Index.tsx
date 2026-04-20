@@ -96,7 +96,7 @@ export default function Index() {
             <img
               src="https://cdn.poehali.dev/files/3cdbee9a-7506-4819-8693-096268f71d4f.png"
               alt="Логотип"
-              className="h-10 w-auto"
+              className="h-16 w-auto"
               style={{ mixBlendMode: "screen" }}
             />
           </div>
